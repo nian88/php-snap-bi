@@ -43,7 +43,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Otnansirk\\SnapBI\\": "src/"
+            "Niandev\\SnapBI\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -51,7 +51,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Otnansirk\\SnapBI\\": [
+            "Niandev\\SnapBI\\": [
                 "tests/",
                 "tests/Integration",
                 "tests/Unit",
