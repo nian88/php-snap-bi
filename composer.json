@@ -1,5 +1,5 @@
 {
-    "name": "otnansirk/php-snap-bi",
+    "name": "niandev/php-snap-bi",
     "description": "This is a standard national open API Payments wrapper for PHP",
     "keywords": [
         "snap-bi",
@@ -18,8 +18,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Otnansirk",
-            "email": "iam.otnansirk@gmail.com"
+            "name": "niandev",
+            "email": "azhar@niandev.com"
         }
     ],
     "support": {
