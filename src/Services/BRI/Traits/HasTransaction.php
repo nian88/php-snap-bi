@@ -1,11 +1,11 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BRI\Traits;
+namespace Niandev\SnapBI\Services\BRI\Traits;
 
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
-use Otnansirk\SnapBI\Services\BRI\BriConfig;
-use Otnansirk\SnapBI\Support\Signature;
-use Otnansirk\SnapBI\Support\Http;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Services\BRI\BriConfig;
+use Niandev\SnapBI\Support\Signature;
+use Niandev\SnapBI\Support\Http;
 use Ramsey\Uuid\Uuid;
 
 

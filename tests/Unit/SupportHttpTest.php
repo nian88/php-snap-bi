@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Otnansirk\SnapBI\Support\Http;
+use Niandev\SnapBI\Support\Http;
 
 final class SupportHttpTest extends TestCase
 {

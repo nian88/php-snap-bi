@@ -1,13 +1,13 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BCA\Traits;
+namespace Niandev\SnapBI\Services\BCA\Traits;
 
-use Otnansirk\SnapBI\Exception\AuthenticateException;
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
-use Otnansirk\SnapBI\Services\BCA\BcaConfig;
-use Otnansirk\SnapBI\Support\HttpResponse;
-use Otnansirk\SnapBI\Support\Signature;
-use Otnansirk\SnapBI\Support\Http;
+use Niandev\SnapBI\Exception\AuthenticateException;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Services\BCA\BcaConfig;
+use Niandev\SnapBI\Support\HttpResponse;
+use Niandev\SnapBI\Support\Signature;
+use Niandev\SnapBI\Support\Http;
 
 
 trait HasAccessToken

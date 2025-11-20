@@ -1,6 +1,6 @@
 <?php
 
-namespace Otnansirk\SnapBI\Exception;
+namespace Niandev\SnapBI\Exception;
 
 final class AuthenticateException extends \Exception
 {

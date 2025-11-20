@@ -1,14 +1,14 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BCA;
+namespace Niandev\SnapBI\Services\BCA;
 
-use Otnansirk\SnapBI\Core\SnapApiCore;
-use Otnansirk\SnapBI\Exception\SnapBiException;
-use Otnansirk\SnapBI\Interfaces\SnapApiInterface;
-use Otnansirk\SnapBI\Services\BCA\Traits\HasAccessToken;
-use Otnansirk\SnapBI\Services\BCA\Traits\HasTransaction;
-use Otnansirk\SnapBI\Services\BCA\Traits\HasVirtualAccount;
-use Otnansirk\SnapBI\Traits\HasSelfCall;
+use Niandev\SnapBI\Core\SnapApiCore;
+use Niandev\SnapBI\Exception\SnapBiException;
+use Niandev\SnapBI\Interfaces\SnapApiInterface;
+use Niandev\SnapBI\Services\BCA\Traits\HasAccessToken;
+use Niandev\SnapBI\Services\BCA\Traits\HasTransaction;
+use Niandev\SnapBI\Services\BCA\Traits\HasVirtualAccount;
+use Niandev\SnapBI\Traits\HasSelfCall;
 
 class BcaSnapApi extends SnapApiCore implements SnapApiInterface
 {

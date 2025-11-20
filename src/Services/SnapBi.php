@@ -1,11 +1,11 @@
 <?php
-namespace Otnansirk\SnapBI\Services;
+namespace Niandev\SnapBI\Services;
 
-use Otnansirk\SnapBI\Exception\SnapBiException;
-use Otnansirk\SnapBI\Interfaces\SnapApiInterface;
-use Otnansirk\SnapBI\Services\BCA\BcaSnapApi;
-use Otnansirk\SnapBI\Services\DANA\DanaSnapApi;
-use Otnansirk\SnapBI\Services\Mandiri\MandiriSnapApi;
+use Niandev\SnapBI\Exception\SnapBiException;
+use Niandev\SnapBI\Interfaces\SnapApiInterface;
+use Niandev\SnapBI\Services\BCA\BcaSnapApi;
+use Niandev\SnapBI\Services\DANA\DanaSnapApi;
+use Niandev\SnapBI\Services\Mandiri\MandiriSnapApi;
 
 final class SnapBi
 {

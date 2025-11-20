@@ -23,9 +23,9 @@
         }
     ],
     "support": {
-        "forum": "https://github.com/otnansirk/php-snap-bi/discussions",
-        "issues": "https://github.com/otnansirk/php-snap-bi/issues",
-        "source": "https://github.com/otnansirk/php-snap-bi",
+        "forum": "https://github.com/nian88/php-snap-bi/discussions",
+        "issues": "https://github.com/nian88/php-snap-bi/issues",
+        "source": "https://github.com/nian88/php-snap-bi",
         "docs": "https://php-snap-bi.gitbook.io/docs"
     },
     "scripts": {

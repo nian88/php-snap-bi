@@ -1,5 +1,5 @@
 <?php
-namespace Otnansirk\SnapBI\Interfaces;
+namespace Niandev\SnapBI\Interfaces;
 
 interface HttpResponseInterface
 {

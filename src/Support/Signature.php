@@ -1,7 +1,7 @@
 <?php
-namespace Otnansirk\SnapBI\Support;
+namespace Niandev\SnapBI\Support;
 
-use Otnansirk\SnapBI\Exception\SignatureException;
+use Niandev\SnapBI\Exception\SignatureException;
 
 final class Signature
 {

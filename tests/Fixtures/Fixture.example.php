@@ -1,5 +1,5 @@
 <?php
-namespace Otnansirk\SnapBI\Fixtures;
+namespace Niandev\SnapBI\Fixtures;
 
 final class Fixture
 {

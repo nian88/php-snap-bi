@@ -1,13 +1,13 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\Mandiri;
+namespace Niandev\SnapBI\Services\Mandiri;
 
-use Otnansirk\SnapBI\Core\SnapApiCore;
-use Otnansirk\SnapBI\Exception\SnapBiException;
-use Otnansirk\SnapBI\Interfaces\SnapApiInterface;
-use Otnansirk\SnapBI\Services\Mandiri\Traits\HasAccessToken;
-use Otnansirk\SnapBI\Services\Mandiri\Traits\HasTransaction;
-use Otnansirk\SnapBI\Traits\HasSelfCall;
+use Niandev\SnapBI\Core\SnapApiCore;
+use Niandev\SnapBI\Exception\SnapBiException;
+use Niandev\SnapBI\Interfaces\SnapApiInterface;
+use Niandev\SnapBI\Services\Mandiri\Traits\HasAccessToken;
+use Niandev\SnapBI\Services\Mandiri\Traits\HasTransaction;
+use Niandev\SnapBI\Traits\HasSelfCall;
 
 class MandiriSnapApi extends SnapApiCore implements SnapApiInterface
 {

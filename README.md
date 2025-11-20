@@ -6,13 +6,13 @@ https://php-snap-bi.gitbook.io/docs
 
 ## Installation
 ```bash
-composer require otnansirk/php-snap-bi
+composer require Niandev/php-snap-bi
 ```
 or
 ```json
 {
     "require": {
-        "otnansirk/php-snap-bi": "1.*"
+        "Niandev/php-snap-bi": "1.*"
     }
 }
 ```

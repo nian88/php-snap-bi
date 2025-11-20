@@ -1,11 +1,11 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BCA\Traits;
+namespace Niandev\SnapBI\Services\BCA\Traits;
 
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
-use Otnansirk\SnapBI\Services\BCA\BcaConfig;
-use Otnansirk\SnapBI\Support\Signature;
-use Otnansirk\SnapBI\Support\Http;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Services\BCA\BcaConfig;
+use Niandev\SnapBI\Support\Signature;
+use Niandev\SnapBI\Support\Http;
 use Ramsey\Uuid\Uuid;
 
 
@@ -120,8 +120,8 @@ trait HasTransaction
     /**
      * this is function transfer rtgs
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function transferRTGS(): HttpResponseInterface
     {
@@ -153,8 +153,8 @@ trait HasTransaction
     /**
      * This service is used to transfer SKNBI.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function transferSKNBI(): HttpResponseInterface
     {
@@ -188,8 +188,8 @@ trait HasTransaction
      * This service is used to transfer intrabank.
      * means that the transfer is made within the same bank network
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function transferIntraBank(): HttpResponseInterface
     {
@@ -224,8 +224,8 @@ trait HasTransaction
      * This service is used to transfer interbank online.
      * meaning that the sender uses a different Bank network to transfer to the receiver
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function transferInterBankONL(): HttpResponseInterface
     {
@@ -258,8 +258,8 @@ trait HasTransaction
     /**
      * This service is used to internal account inquiry.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function internalAccountInquiry(): HttpResponseInterface
     {
@@ -291,8 +291,8 @@ trait HasTransaction
     /**
      * This service is used to internal account inquiry.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function accountInquiryExternal(): HttpResponseInterface
     {
@@ -324,8 +324,8 @@ trait HasTransaction
     /**
      * This service is used to inquiry status transaction.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function inquiryStatusTransaction(): HttpResponseInterface
     {
@@ -357,8 +357,8 @@ trait HasTransaction
     /**
      * This service is used to balance inquiry.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function balanceInquiry(): HttpResponseInterface
     {
@@ -393,8 +393,8 @@ trait HasTransaction
     /**
      * This service is used to transfer Bi fast.
      * @return HttpResponseInterface
-     * @throws \Otnansirk\SnapBI\Exception\AuthenticateException
-     * @throws \Otnansirk\SnapBI\Exception\HttpException
+     * @throws \Niandev\SnapBI\Exception\AuthenticateException
+     * @throws \Niandev\SnapBI\Exception\HttpException
      */
     public static function transferBIFAST(): HttpResponseInterface
     {

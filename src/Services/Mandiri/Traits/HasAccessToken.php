@@ -1,13 +1,13 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\Mandiri\Traits;
+namespace Niandev\SnapBI\Services\Mandiri\Traits;
 
-use Otnansirk\SnapBI\Exception\AuthenticateException;
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
-use Otnansirk\SnapBI\Services\Mandiri\MandiriConfig;
-use Otnansirk\SnapBI\Support\HttpResponse;
-use Otnansirk\SnapBI\Support\Signature;
-use Otnansirk\SnapBI\Support\Http;
+use Niandev\SnapBI\Exception\AuthenticateException;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Services\Mandiri\MandiriConfig;
+use Niandev\SnapBI\Support\HttpResponse;
+use Niandev\SnapBI\Support\Signature;
+use Niandev\SnapBI\Support\Http;
 
 
 trait HasAccessToken

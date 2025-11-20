@@ -1,10 +1,10 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BCA;
+namespace Niandev\SnapBI\Services\BCA;
 
-use Otnansirk\SnapBI\Interfaces\ConfigInterface;
-use Otnansirk\SnapBI\Traits\HasConfig;
-use Otnansirk\SnapBI\Traits\HasSelfCall;
+use Niandev\SnapBI\Interfaces\ConfigInterface;
+use Niandev\SnapBI\Traits\HasConfig;
+use Niandev\SnapBI\Traits\HasSelfCall;
 use Ramsey\Uuid\Uuid;
 
 

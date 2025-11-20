@@ -1,7 +1,7 @@
 <?php
-use Otnansirk\SnapBI\Support\Signature;
-use Otnansirk\SnapBI\Fixtures\Fixture;
-use Otnansirk\SnapBI\Services\Config;
+use Niandev\SnapBI\Support\Signature;
+use Niandev\SnapBI\Fixtures\Fixture;
+use Niandev\SnapBI\Services\Config;
 use PHPUnit\Framework\TestCase;
 
 final class SignatureTest extends TestCase
@@ -22,7 +22,7 @@ final class SignatureTest extends TestCase
             Config::bca()::class,
             'POST',
             '/api/path',
-            ['name' => 'otnansirk'],
+            ['name' => 'Niandev'],
             currentTimestamp(),
             'accessToken'
         );

@@ -1,9 +1,9 @@
 <?php
 
-namespace Otnansirk\SnapBI\Support;
+namespace Niandev\SnapBI\Support;
 
-use Otnansirk\SnapBI\Exception\HttpException;
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Exception\HttpException;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
 
 final class Http
 {

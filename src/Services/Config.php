@@ -1,11 +1,11 @@
 <?php
-namespace Otnansirk\SnapBI\Services;
+namespace Niandev\SnapBI\Services;
 
-use Otnansirk\SnapBI\Exception\SnapBiException;
-use Otnansirk\SnapBI\Interfaces\ConfigInterface;
-use Otnansirk\SnapBI\Services\BCA\BcaConfig;
-use Otnansirk\SnapBI\Services\DANA\DanaConfig;
-use Otnansirk\SnapBI\Services\Mandiri\MandiriConfig;
+use Niandev\SnapBI\Exception\SnapBiException;
+use Niandev\SnapBI\Interfaces\ConfigInterface;
+use Niandev\SnapBI\Services\BCA\BcaConfig;
+use Niandev\SnapBI\Services\DANA\DanaConfig;
+use Niandev\SnapBI\Services\Mandiri\MandiriConfig;
 
 final class Config
 {

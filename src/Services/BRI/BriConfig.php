@@ -1,10 +1,10 @@
 <?php
 
-namespace Otnansirk\SnapBI\Services\BRI;
+namespace Niandev\SnapBI\Services\BRI;
 
-use Otnansirk\SnapBI\Interfaces\ConfigInterface;
-use Otnansirk\SnapBI\Traits\HasConfig;
-use Otnansirk\SnapBI\Traits\HasSelfCall;
+use Niandev\SnapBI\Interfaces\ConfigInterface;
+use Niandev\SnapBI\Traits\HasConfig;
+use Niandev\SnapBI\Traits\HasSelfCall;
 
 
 final class BriConfig implements ConfigInterface

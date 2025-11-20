@@ -1,6 +1,6 @@
 <?php
 
-namespace Otnansirk\SnapBI\Traits;
+namespace Niandev\SnapBI\Traits;
 
 
 trait HasConfig

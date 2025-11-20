@@ -1,5 +1,5 @@
 <?php
-namespace Otnansirk\SnapBI\Core;
+namespace Niandev\SnapBI\Core;
 
 class SnapApiCore
 {

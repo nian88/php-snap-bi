@@ -1,13 +1,13 @@
 <?php
-use Otnansirk\SnapBI\Fixtures\Fixture;
-use Otnansirk\SnapBI\Services\Config;
+use Niandev\SnapBI\Fixtures\Fixture;
+use Niandev\SnapBI\Services\Config;
 use PHPUnit\Framework\TestCase;
 
 final class ConfigTest extends TestCase
 {
     function testThrowSnapBiException()
     {
-        $this->expectException(\Otnansirk\SnapBI\Exception\SnapBiException::class);
+        $this->expectException(\Niandev\SnapBI\Exception\SnapBiException::class);
         Config::bank(Fixture::configFixture());
     }
     function testThrowInvalidArgumentException()

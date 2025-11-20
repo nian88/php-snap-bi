@@ -1,8 +1,8 @@
 <?php
 
-namespace Otnansirk\SnapBI\Support;
+namespace Niandev\SnapBI\Support;
 
-use Otnansirk\SnapBI\Interfaces\HttpResponseInterface;
+use Niandev\SnapBI\Interfaces\HttpResponseInterface;
 
 final class HttpResponse implements HttpResponseInterface
 {
